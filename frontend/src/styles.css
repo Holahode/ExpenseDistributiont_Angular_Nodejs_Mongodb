@@ -1,0 +1,131 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: cursive;
+  font-size: large;
+  
+}
+
+table,
+th,
+td,
+tr {
+  border: lightskyblue 1px solid;
+}
+table {
+  border-collapse: collapse;
+  width: 95%;
+  margin-left: 30px;
+  box-shadow: 0 0 20px 5px rgba(1, 35, 255, 0.42);
+  padding: 10px;
+  ;
+}
+
+table tr:nth-child(even) {
+  background-color: #cacbce;
+}
+
+table tr:hover {
+  background-color: #c7c8cc;
+}
+
+td {
+  text-align: center;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #142057;
+  color: white;
+}
+
+button:hover{
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+#forms {
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  margin: 10%;
+  padding: 50px;
+  box-shadow: 0 0 20px 5px rgba(1, 35, 255, 0.235);
+  /* margin: 0 auto; */
+  border-radius: 10px;
+  
+}
+
+#loginSignUp, #createForm{
+  padding: 50px;
+  margin: 5%;
+  margin-left: 30%;
+  margin-right: 25%;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-self: center;
+  text-align: left;
+  box-shadow: 0 0 20px 5px rgba(255, 1, 1, 0.1);
+}
+#loginForm{
+  /* style="display: flex; flex-direction: column; align-items: center;" */
+  padding: 50px;
+  margin: 5%;
+  margin-left: 30%;
+  margin-right: 25%;
+  margin-bottom: 10%;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-self: center;
+  text-align: left;
+  box-shadow: 0 0 20px 5px rgba(73, 84, 238, 0.1);
+}
+
+input {
+  margin: -3px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: medium;
+  border-color: #142057;
+}
+
+h1, nav, header{
+  background-color: #142057;
+  color: white;
+}
+
+h2, h1{
+  display:flex;
+  justify-content:center
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+   padding: 10px;
+}
+
+#search{
+  width: 95%;
+  margin-left: 30px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0a4275;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+img {
+  object-fit: contain;
+  width: 700px;
+  height: 400px
+}
